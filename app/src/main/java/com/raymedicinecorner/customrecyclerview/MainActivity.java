@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         String[] postTitle={"item1","item2","item3","item4","item5","item6","item7","item8","item9","item10","item11","item12","item13","item14","item15","item16"};
-        String[] postSubtitle={"Sitem1","Sitem2","Sitem3","Sitem4","Sitem5","Sitem6","Sitem7","Sitem8","Sitem9","Sitem10","Sitem11","Sitem12","Sitem13","Sitem14","Sitem15","Sitem8"};
+        String[] postSubtitle={"Sitem1","Sitem2","Sitem3","Sitem4","Sitem5","Sitem6","Sitem7","Sitem8","Sitem9","Sitem10","Sitem11","Sitem12","Sitem13","Sitem14","Sitem15","Sitem16"};
 
         DataAdapter adpt=new DataAdapter(postTitle,postSubtitle);
         recyclerView.setAdapter(adpt);
